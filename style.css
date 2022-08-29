@@ -1,0 +1,666 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+/* Beranda */
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bgputih.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 10px;
+    color: #1FA7FF;
+}
+
+
+.nav-link {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: black;
+    text-transform: uppercase;
+    margin-right: 30px;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.nav-link:hover {
+    border-bottom: 3px solid #444444;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+
+.jumbotron {
+    margin: 35px;
+    margin-top: 30px;
+}
+
+.jumbotron2 {
+    margin: 100px;
+}
+
+.container-item {
+    display: grid;
+    background-color: #2E4B3F;
+    color: white; 
+}
+
+#logo-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 0px;
+    margin: 0 1.5%;
+}
+
+#profile-logo {
+    object-fit: cover;
+    margin: 20px;
+}
+
+.title {
+    margin: 20px 0px;
+    font-size: 12px;
+    font-weight: 700px;
+}
+
+.contrainer10{
+    background-color: #2E4B3F;
+    padding: 30px;
+    color: white;
+}
+
+.flex{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 40%;
+}
+
+.contrainer10 h1 {
+    text-align: left;
+}
+
+.kotak{
+
+}
+
+.kotak p{
+    margin-left: 75px;
+    margin-bottom: 70px;
+}
+.row div {
+    background-color: #2E4B3F;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.row img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.row p {
+    font-size: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 20px;
+    justify-content: space-between;
+    color: white;
+    text-align: justify;
+}
+
+.content {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-bottom: 200px;
+    padding: 0px 32px;
+}
+
+#profile-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 1.5%;
+}
+
+#profile-picture {
+    height: 500px;
+    object-fit: cover;
+    margin: 50px;
+}
+
+.title-1 {
+    margin: 24px 0px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+.subtitle {
+    font-size: 1.25em;
+    line-height: 1.4;
+    margin: 24px 0;
+}
+
+.containers {
+    text-align: left;
+}
+
+.nav4 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    margin-right: 10px;
+}
+
+.nav4 h1 {
+    font-size: 30px;
+}
+
+.item4 {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #2ECB89;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-right: 30px;
+    padding: 15px;
+    margin-left:500px;
+}
+
+#deskripsi {
+    align-items: center;
+    padding: 50px;
+    margin-bottom: 40px;
+}
+
+.title-2 h2{
+    /* display: flex;
+    flex-direction: row; */
+    margin: 24px 0px;
+    font-size: 2.5em;
+    font-weight: 700;
+}
+
+#partner{
+    position: absolute;
+    left: 10%;
+    /* font-size: 20px; */
+    padding-right: 20px;
+}
+
+#naskah{
+    position: absolute;
+    left: 30%;
+}
+
+
+.container2 {
+    margin: auto;
+    padding: 60px;
+    align-items: center;
+}
+
+.container2 ul li {
+    padding: 10px;
+}
+
+.container2 img {
+    width: 90px;
+    align-items: center;
+}
+
+.logo li {
+    height: 150px;
+    overflow: hidden;
+    float: left;
+    margin-right: 15px;
+    margin-left: 30px;
+    
+}
+
+
+.container3 {
+    margin: auto;
+    margin-left: 100px;
+    align-items: center;
+}
+
+.deskripsi2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.row3 {
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.kontak {
+    background-color: #29A973;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+}
+
+.title-1 {
+    margin: 24px 0px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.subtitle {
+    font-size: 1.25em;
+    line-height: 1.4;
+}
+
+
+.card-body btn {
+    background-color: #48D198;
+}
+
+
+.cards1 {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 25px;
+    margin-left: 75px;
+}
+
+.img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
+
+.cards1 h3 {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.cards1 p {
+    font-size: 16px;
+}
+
+.container5 {
+    padding: 50px;
+  }
+
+.footer {
+    display: flex;
+    background-color: #2E4B3F;
+    padding: 30px;
+    flex-direction: row;
+    
+}
+
+
+.footer p {
+    color: white;
+}
+
+.cont3{
+    margin-left: 6%;
+}
+
+.text3{
+    padding-left: 20%;
+    color: white;
+}
+
+ul{
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    color: white;
+    text-transform: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+/* tentang kita */
+
+.container4 {
+    margin: auto;
+    align-items: center;
+}
+
+.guru h1 {
+    margin-top: 50px;
+}
+
+.container6{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px;
+} 
+
+.row6 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cards {
+    margin: 10px 20px;
+    margin-left: 90px;
+}
+
+
+
+/* section footer */
+.section-footer {
+    background-color: #2E4B3F;
+}
+
+.row-sub-footer {
+    padding: 5rem 0px;
+}
+
+.wrapper-col-1 h1 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 1rem;
+}
+
+.wrapper-icon img{
+    width: 25px;
+    margin-right: 1rem;
+}
+
+.wrapper-col-2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-col-2 h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-col-2 a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-col-3 {
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-col-3 h1 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-col-3 a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-col-4 {
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-col-4 h1 {
+    color: white;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-col-4 a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.wrapper-last-footer {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hr {
+    border: 2px solid #ffff;
+}
+
+/* berita */
+
+.title-3 {
+    background-color: #2E4B3F;
+    padding: 20px;
+}
+
+.title-3 h1 {
+    color: #ffff;
+    font-family: sans-serif;
+    font-size: 30px;
+}
+
+.card {
+    padding: 20px;
+}
+
+.card-body img {
+    width: 60%;
+}
+
+.card-body h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-right: 130px;
+    padding: 10px;
+    color: #404040;
+}
+
+.card-body p {
+    text-align: justify;
+    margin-left: 230px;
+    color: #787878;
+}
+
+.card-body a {
+    text-decoration: none;
+}
+
+.nav5 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.nav5 h1 {
+    font-size: 30px;
+}
+
+.item5 {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #404040;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 15px;
+    margin-right: -200px;
+    margin-left: 220px;
+}
+
+.item5:hover {
+    border-bottom: 3px solid #1FA7FF;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+}
+
+.container7{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 30px;
+} 
+
+.row7 {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 65px;
+}
+
+.row7 h3 {
+    font-size: 16px;
+}
+
+.cards2 {
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    float: left;
+    margin-right: 25px;
+    margin-left: 100px;
+}
+
+.pagination1 {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.pagination1 h1 {
+    color: #787878;
+    font-size: 20px;
+    margin-left: 140px;
+}
+
+.pagination1 ul {
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #2ECB89;
+    text-transform: uppercase;
+    margin-left: 500px;
+}
+
+.pagination1 li {
+    color: #787878;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+/* read more */
+
+.banner2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/bg-polos-hijau.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+}
+
+.card-body2 {
+    margin: 100px;
+}
+
+.card-body2 img {
+    padding: 10px;
+}
+
+.card-body2 h1 {
+    padding: 10px;
+}
+
+.nav6 {
+    margin-left: 100px;
+    padding: 50px;
+}
+
+.nav6 h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #8B8B8B;
+    text-transform: uppercase;
+    margin-left: 0px;
+}
+
+.logo6 {
+    
+}
+
+.containers h1 {
+    color: #404040;
+    margin-left: 150px;
+}
+
+/* kontak */
+
+.kontak2 {
+    padding: 100px;
+}
+
+.kontak2 h1 {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+    color: #949494;
+}
+
+.kontak2 h2 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+    color: #949494;
+}
+
+.kontak2 h3 {
+    font-size: 20px;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.kontak2 a{
+    color: white;
+    /* margin-left: 450px; */
+    align-items: center;
+}

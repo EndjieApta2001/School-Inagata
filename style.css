@@ -77,6 +77,10 @@ body {
     font-weight: 700px;
 }
 
+#halo{
+    background-color: #2E4B3F;
+}
+
 .contrainer10{
     background-color: #2E4B3F;
     padding: 30px;
@@ -117,7 +121,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 20px;
 }
 
 .row p {
@@ -382,6 +386,42 @@ a{
     margin-left: 90px;
 }
 
+#logo-flex {
+    background-color: #2E4B3F;
+}
+
+.row9{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+/* .title9 {
+    align-items: ;
+} */
+
+.sekolah {
+    margin-left: 50px;
+    padding: 20px;
+    padding-top: 20%;
+}
+
+.sekolah h3{
+    color: white;
+    font-size: 40px;
+    font-family: Arial;
+}
+
+.col img {
+    width: 50px;
+    position: absolute;
+    right: 40%;
+}
+
+.col-3 {
+    
+}
 
 
 /* section footer */

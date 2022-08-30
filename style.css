@@ -602,6 +602,11 @@ a{
     margin-left: 100px;
 }
 
+.cards2 h3 {
+    color: #787878;
+    margin-top: 15px;
+}
+
 .pagination1 {
     padding: 20px;
     display: flex;
@@ -638,8 +643,27 @@ a{
     background-position: top right;
 }
 
+.kegiatan {
+    position: absolute;
+    margin: 50px;
+    margin-bottom: 20px;
+    left: 7%;
+    top: 5%;
+}
+
+.kegiatan h3 {
+    font-size: 30px;
+    color: #404040;
+}
+
+.kegiatan p {
+    color: #787878;
+}
+
 .card-body2 {
     margin: 100px;
+    top: 30px;
+    
 }
 
 .card-body2 img {

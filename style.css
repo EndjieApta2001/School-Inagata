@@ -397,10 +397,6 @@ a{
     align-items: flex-end;
 }
 
-/* .title9 {
-    align-items: ;
-} */
-
 .sekolah {
     margin-left: 50px;
     padding: 20px;
@@ -419,8 +415,9 @@ a{
     right: 40%;
 }
 
-.col-3 {
-    
+.col h3 {
+    font-size: 20px;
+    margin-right: 20px;
 }
 
 

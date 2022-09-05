@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -44,21 +45,43 @@ body {
 
 
 .jumbotron {
-    margin: 35px;
+    margin: 10px 10px 30px 20px;
+    position: absolute;
+    padding: 30px;
+    margin: 0;
     margin-top: 30px;
 }
 
-.jumbotron2 {
-    margin: 100px;
+.jumbotron h1 {
+    margin: 10px 10px 30px 20px;
+    font-family: rounded reqular;
+    font-size: 50px;
+    font-weight: bold;
 }
 
+.jumbotron p {
+    margin: 10px 10px 30px 20px;
+}
+
+.jumbotron a {
+    margin: 10px 10px 30px 20px;
+}
+
+.jumbotron2 {
+    margin: 10px 10px 30px 20px;
+    padding: 60px;
+}
+
+
 .container-item {
+    margin: 10px 10px 30px 20px;
     display: grid;
     background-color: #2E4B3F;
     color: white; 
 }
 
 #logo-container {
+    margin: 10px 10px 30px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -67,12 +90,13 @@ body {
 }
 
 #profile-logo {
+    margin: 10px 10px 30px 20px;
     object-fit: cover;
     margin: 20px;
 }
 
 .title {
-    margin: 20px 0px;
+    margin: 10px 10px 30px 20px;
     font-size: 12px;
     font-weight: 700px;
 }
@@ -98,9 +122,6 @@ body {
     text-align: left;
 }
 
-.kotak{
-
-}
 
 .kotak p{
     margin-left: 75px;
@@ -154,11 +175,11 @@ body {
     margin: 50px;
 }
 
-.title-1 {
-    margin: 24px 0px;
-    font-size: 2.5em;
-    font-weight: 700;
-}
+/* .kontak h1{
+    margin: 20px 0px;
+    font-size: 30px;
+    font-weight: bold;
+} */
 
 .subtitle {
     font-size: 1.25em;
@@ -174,11 +195,20 @@ body {
     padding: 20px;
     display: flex;
     flex-direction: row;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 .nav4 h1 {
     font-size: 30px;
+}
+
+.nav5 a{
+    padding: 10px;
+    color: #8F8F8F;
+}
+
+.text-kanan a {
+    margin-left: 550%;
 }
 
 .item4 {
@@ -192,18 +222,37 @@ body {
     margin-left:500px;
 }
 
-#deskripsi {
-    align-items: center;
-    padding: 50px;
-    margin-bottom: 40px;
+.containert {
+    display: flex;
+    padding: 100px;
+    margin: 20px;
 }
 
-.title-2 h2{
-    /* display: flex;
-    flex-direction: row; */
-    margin: 24px 0px;
-    font-size: 2.5em;
+.title-col {
+    display: flex;
+    padding: 100px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.title-col h1{
+    margin: 10px 10px 30px 20px;
+    font-size: 2.2em;
     font-weight: 700;
+    margin-right: 20px;
+    /* align-items: flex-start; */
+    justify-content: center;
+    align-items: right;
+
+}
+
+.title-col p {
+    margin: 10px 10px 30px 20px;
+    font-size: 20px;
+    margin-right: 50px;
+    text-align: left;
+    
+    
 }
 
 #partner{
@@ -266,7 +315,7 @@ body {
     background-color: #29A973;
     display: flex;
     align-items: center;
-    padding: 30px;
+    padding: 20px;
 }
 
 .title-1 {
@@ -279,6 +328,34 @@ body {
 .subtitle {
     font-size: 1.25em;
     line-height: 1.4;
+}
+
+.cardd {
+    margin: auto;
+    border-radius: 10px;
+    padding: 40px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.cardd h2 {
+    color: white;
+}
+
+.cardd p {
+    color: white;
+}
+
+
+
+.btn a{
+    border-radius: 10px;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.card9 h1 {
+    margin-right: 20px;
 }
 
 
@@ -418,6 +495,7 @@ a{
 .col h3 {
     font-size: 20px;
     margin-right: 20px;
+    text-align: left;
 }
 
 
@@ -684,9 +762,6 @@ a{
     margin-left: 0px;
 }
 
-.logo6 {
-    
-}
 
 .containers h1 {
     color: #404040;

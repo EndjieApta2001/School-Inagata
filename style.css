@@ -127,8 +127,13 @@ body {
     margin-left: 75px;
     margin-bottom: 70px;
 }
-.row div {
+
+#bg{
     background-color: #2E4B3F;
+}
+
+.row div {
+    /* background-color: #2E4B3F; */
     padding: 30px;
     display: flex;
     align-items: center;
@@ -137,6 +142,13 @@ body {
     flex-direction: row;
 
 }
+
+#hmm {
+    color: black;
+    /* font-family: rounded reqular; */
+    font-weight: bold;
+}
+
 
 .row img {
     display: flex;
@@ -267,7 +279,6 @@ body {
     left: 30%;
 }
 
-
 .container2 {
     margin: auto;
     padding: 60px;
@@ -304,6 +315,7 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+
 
 .row3 {
     padding: 30px;

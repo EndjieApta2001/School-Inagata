@@ -79,7 +79,6 @@ body {
 }
 
 #logo-container {
-    margin: 10px 10px 30px 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -88,7 +87,6 @@ body {
 }
 
 #profile-logo {
-    margin: 10px 10px 30px 20px;
     object-fit: cover;
     margin: 20px;
 }
@@ -141,6 +139,10 @@ body {
 
 }
 
+.container {
+    padding-top: 20px;
+}
+
 #hmm {
     color: black;
     /* font-family: rounded reqular; */
@@ -168,7 +170,7 @@ body {
 .content {
     max-width: 1200px;
     margin: 0 auto;
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     padding: 0px 32px;
 }
 
@@ -176,7 +178,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 1.5%;
+    margin: 1.5%;
 }
 
 #profile-picture {
@@ -426,7 +428,7 @@ body {
     padding: 50px;
 }
 
-#myid {
+footer {
     display: flex;
     background-color: #2E4B3F !important;
     color: white;

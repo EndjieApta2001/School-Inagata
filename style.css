@@ -551,6 +551,20 @@ a{
     margin-left: 90px;
 }
 
+.row6 .cards img:hover{
+    transform: scale(1.1);
+}
+
+.row6 .cards h2:hover{
+    color: #29A973;
+    cursor: pointer;
+} 
+
+.row6 .cards p:hover{
+    color: #29A973;
+    cursor: pointer;
+} 
+
 #logo-flex {
     background-color: #2E4B3F;
 }

@@ -708,6 +708,7 @@ a{
 
 .card-body img {
     width: 60%;
+    transition: transform .6s;
 }
 
 .card-body h1 {
@@ -726,6 +727,10 @@ a{
 
 .card-body a {
     text-decoration: none;
+}
+
+.card .card-body img:hover {
+    transform: scale(1.1);
 }
 
 .nav5 {

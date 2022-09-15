@@ -859,11 +859,16 @@ a{
 }
 
 .card-body2 img {
-    padding: 10px;
+    padding: 10px; 
+    transition: transform .8s; /* Animation */
 }
 
 .card-body2 h1 {
     padding: 10px;
+}
+
+.card .card-body2 img:hover {
+    transform: scale(1.1);
 }
 
 .nav6 {

@@ -317,6 +317,10 @@ body {
     
 }
 
+.container2 .logo img:hover{
+    transform: scale(1.1);
+}
+
 
 .container3 {
     margin: auto;

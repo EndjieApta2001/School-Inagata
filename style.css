@@ -39,8 +39,12 @@ body {
     border-bottom: 3px solid #444444;
     padding-bottom: 5px;
     margin-bottom: -8px;
+    transition: 0.2s;
 }
 
+.nav-item:hover {
+    letter-spacing: 2px;
+}
 
 .jumbotron {
     margin: 10px 10px 30px 20px;
@@ -63,6 +67,11 @@ body {
 
 .jumbotron a {
     margin: 10px 10px 30px 20px;
+}
+
+.jumbotron a:hover{
+    letter-spacing: 2px;
+    transition: 0.2s;
 }
 
 .jumbotron2 {
@@ -172,6 +181,11 @@ body {
     margin: 0 auto;
     /* margin-bottom: 200px; */
     padding: 0px 32px;
+}
+
+.content a:hover{
+    letter-spacing: 2px;
+    transition: 0.2s;
 }
 
 #profile-container {
@@ -332,9 +346,9 @@ body {
 
 .title-1 {
     margin: 24px 0px;
-    font-size: 20px;
+    font-size: 50px;
     font-weight: 700;
-    margin-left: 20px;
+    font-family: rounded reqular;
 }
 
 .subtitle {
@@ -370,6 +384,10 @@ body {
     padding: 30px;
     align-items: flex-start;
     flex-wrap: wrap;
+}
+
+.cardd .col a:hover{
+    letter-spacing: 2px;
 }
 
 .cardd h2 {
@@ -417,12 +435,21 @@ body {
 
 .cards1 h3 {
     font-size: 20px;
-    padding: 10px;
+    padding: 10px 0 0 0;
 }
 
 .cards1 p {
     font-size: 16px;
 }
+
+.row6 .cards1 img:hover{
+    transform: scale(1.1);
+}
+
+.row6 .cards1 h3:hover{
+    color: #29A973;
+    cursor: pointer;
+} 
 
 .container5 {
     padding: 50px;

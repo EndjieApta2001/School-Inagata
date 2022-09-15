@@ -786,11 +786,17 @@ a{
     float: left;
     margin-right: 25px;
     margin-left: 100px;
+    transition: transform .8s; /* Animation */
+    
 }
 
 .cards2 h3 {
     color: #787878;
     margin-top: 15px;
+}
+
+.row7 .cards2 img:hover {
+    transform: scale(1.1);
 }
 
 .pagination1 {

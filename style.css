@@ -464,8 +464,16 @@ footer {
     margin: auto; 
 }
 
+.footer {
+    display: flex;
+    background-color: #2E4B3F !important;
+    padding: 30px;
+    padding-bottom: 0px;
+    margin: auto; 
+}
+
 .conteiner-fluid .cont3 .share a{
-    display: inline-block;
+    	display: inline-block;
 	height: 40px;
 	width: 40px;
 	background-color: rgba(255,255,255,0.2);
@@ -473,21 +481,13 @@ footer {
 	text-align: center;
 	line-height: 40px;
 	border-radius: 50%;
-	color: var(--bg);
+	color: white;
 	transition: all 0.5s ease;
 }
 
 .conteiner-fluid .cont3 .share a:hover{
     color: white;
     background-color: #29A973;
-}
-
-.footer {
-    display: flex;
-    background-color: #2E4B3F !important;
-    padding: 30px;
-    padding-bottom: 0px;
-    margin: auto; 
 }
 
 .footer p {

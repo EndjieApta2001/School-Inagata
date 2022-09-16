@@ -906,6 +906,15 @@ a{
     margin-left: 150px;
 }
 
+.containers .container7 .row7 .cards2 p{
+    font-weight: 500;
+}
+
+.containers .container7 .row7 .cards2 p:hover{
+    color: #29A973;
+    cursor: pointer;
+}
+
 /* kontak */
 
 .kontak2 {

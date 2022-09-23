@@ -1,282 +1,211 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sekolah</title>
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="styles.css">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sekolah</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
 
-  <style> 
-    @font-face {
-       font-family: poppins regular;
-       src: url(asset/Poppins-Regular.ttf);
-    }
+    <style> 
+      @font-face {
+         font-family: rounded reqular;
+         src: url(asset/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
+      }
+      
+      @font-face {
+         font-family: rounded reqular;
+         src: url(asset/FontsFree-Net-SF-Pro-Rounded-Regular.ttf);
+         font-weight: bold;
+      }
+      
+      </style>
 
-    @font-face {
-       font-family: poppins bold;
-       src: url(asset/Poppins-Bold.ttf);
-    }
-    
-    @font-face {
-       font-family: rounded bold;
-       src: url(asset/SF-Pro-Rounded-Bold.otf);
-    }
-
-  </style>
-</head>
-<body>
-  <nav class="navbar navbar-expand-lg bg-light fixed-top">
-    <div class="container">
-      <a class="navbar-brand" href="#" style="font-family: rounded bold;color:#1FA7FF;font-size:32px;"><img style="height: 40px;" src="img/Frame 2.png" alt=""> Schools</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Beranda</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tentang_kita.html">Tentang</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="berita.html">Berita</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="galery.html">Galeri</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="kontak.html">Kontak</a>
-          </li>
-          <li class="nav-button">
-            <a class="btn btn-success" href="#" type="button">PPOB</a>
-          </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- banner -->
-  <section id="banner" class="banner section-padding">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-md-12 col-12 mt-md-5">
-          <div class="banner-text">
-            <h2>Berita</h2>
-            <p>Halaman Yang Akan Memberikan Pemberitahuan <br>
-              dan Pengetahuan Untuk Anda.</p>
-            <a href="#" class="btn btn-success">Mulai Belajar</a>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-12 col-12 mt-md-5">
-          <div class="banner-img">
-            <img src="img/banner1.png" alt="" class="img-fluid">
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Kegiatan Sekolah -->
-  <div class="title-3 text-center  md-4">
-    <h1>Berita Terbaru</h1>
-  </div>
-
-  <!-- Kegiatan Belajar Mengajar -->
-
-  <section id="belajar" class="belajar section-padding">
-    <div class="card  md-4">
-      <div class="card-body">
-          <img src="img/bus.png" class="rounded" alt="" >
-          <h1>Kegiatan Belajar Mengajar Offline Dimulai</h1>
-          <p>Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin 
-            kembali belajar di sekolah. Saya ingin bertemu dengan teman-teman 
-            sekelas saya. begitupun sebagian besar orang tua, mimpi mereka 
-            adalah melihat anaknya kembali ke aktivitas sekolah secara 
-            langsung. Orang tua selama ini banyak yang mengaku lelah 
-            karena anak-anaknya selama pandemi lebih banyak menghabiskan 
-            waktu <a href="Read More.html">Read More....</a></p>
-      </div>
-    </div>
-  </section>
-
-  <!-- artikel -->
-  <section id="artikelb" class="artikelb section-padding">
-      <div class="row justify-content-center">
-        <div class="card-header">
-          <ul class="nav nav-tabs card-header-tabs">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Semua</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Berita</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pengumuman</a>
-            </li>
-          </ul>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card7.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Kegiatan Belajar Mengajar Offline Dimulai</h5>
-          </div>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card8.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Penambilan Raport Semester Ganjil </h5>
-          </div>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card9.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Jam Belajar Yang Efektif Pada Anak 8 - 12 Tahun</h5>
-          </div>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card10.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Kegiatan Belajar Mengajar Offline Dimulai</h5>
-          </div>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card11.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Penambilan Raport Semester Ganjil </h5>
-          </div>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card12.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Jam Belajar Yang Efektif Pada Anak 8 - 12 Tahun</h5>
-          </div>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card13.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Kegiatan Belajar Mengajar Offline Dimulai</h5>
-          </div>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card14.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Penambilan Raport Semester Ganjil </h5>
-          </div>
-        </div>
-        <div class="card-box" style="width: 18rem;">
-          <img src="img/card15.png" class="card-img-top" alt="">
-          <div class="card-body">
-            <p>12 Desember 2020</p>
-            <h5 class="card-title">Jam Belajar Yang Efektif Pada Anak 8 - 12 Tahun</h5>
-          </div>
-        </div>
-        <div class="container">
-          <div class="row" style="margin: 100px;">
-            <div class="col-auto me-auto">Menampilkan 9 dari 21 data</div>
-            <div class="col-auto">
-              <nav aria-label="Page navigation example">
-                <ul class="pagination">
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                      <span aria-hidden="true">&laquo;</span>
-                    </a>
-                  </li>
-                  <li class="page-item"><a class="page-link" href="#">1</a></li>
-                  <li class="page-item"><a class="page-link" href="#">2</a></li>
-                  <li class="page-item"><a class="page-link" href="#">3</a></li>
-                  <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                      <span aria-hidden="true">&raquo;</span>
-                    </a>
-                  </li>
-                </ul>
-              </nav>
+    <!-- Logo title bar -->
+    <link rel="icon" href="img/Frame 2.png" type="img/frame 2.png">
+  </head>
+  <body>
+    <div class="container-fluid">
+        <!-- banner -->
+    <div class="banner">
+        <!-- awalnya navbal -->
+      <nav class="navbar navbar-expand-lg bg-transparent postition-fixed w-100">
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img src="img/Frame 2.png" alt="" width="30" class="d-inline-block align-text-top me-3">School</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse md-4">
+              <ul class="navbar-nav mx-auto">
+                <li class="nav-item mx-2">
+                  <a class="nav-link text-black active" href="index.html">Beranda</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link text-black" href="tentang_kita.html">Tentang Kita</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link text-black" href="berita.html">Berita</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link text-black" href="galery.html">Galeri</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link text-black" href="kontak.html">Kontak</a>
+                </li>
+              </ul>
+              <div>
+                  <a class="nav-item nav-link btn btn-light rounded-pill" href="#">PPOB</a>
+              </div>
             </div>
           </div>
-        </div>
-        
-      </div>
-  </section>
-
-  <!-- footer -->
-  <footer class="footer1 text-light pt-5 pb-4" style="background-color: #2E4B3F;">
-    <div class="container text-md-left">
-      <div class="row text-md-left">
-        <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h4 class="mb-4 text-white font-weight-bold text-info" style="font-family: poppins bold;">Inagata</h4>
-          <p>Jelajahi semua pengetahuan dan ilmu yang berguna 
-            bersama kami, untuk kehidupan yang lebih bermanfaat</p>
-          <div class="share">
-            <a href="#" class="bi-twitter"></a>
-            <a href="#" class="bi-facebook"></a>
-            <a href="#" class="bi-instagram"></a>
-          </div>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h4 class="mb-4 text-white font-weight-bold text-info" style="font-family: poppins bold;">Informasi</h4>
-          <p>
-            <a href="berita.html" class="text-light" style="text-decoration: none;">Artikel</a>
-          </p>
-          <p>
-            <a href="galery.html" class="text-light" style="text-decoration: none;">Galeri</a>
-          </p>
-        </div>
-        <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
-          <h4 class="mb-4 text-white font-weight-bold text-info" style="font-family: poppins bold;">Tentang</h4>
-          <p>
-            <a href="tentang_kita.html" class="text-light" style="text-decoration: none;">Tentang Kami</a>
-          </p>
-          <p>
-            <a href="kontak.html" class="text-light" style="text-decoration: none;">Hubungi Kami</a>
-          </p>
-        </div>
-        <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
-          <h4 class="mb-4 text-white font-weight-bold text-info" style="font-family: poppins bold;">Kantor Kami</h4>
-          <p>
-            Indonesia <br>
-            Unamed road RT 01 RW 02
-            Surabaya
-          </p>
-          
-        </div>
-        <hr class="mb-4">
-        <div class="row d-flex justify-content-center text-center">
-          <div>
-            <p>Copyright © <span class="far fa-copyright"></span><span> 2021. All rights reserved. </span></p>
-          </div>
-        </div>
-        <div class="row d-flex justify-content-center">
-          <div class="text-center">
-            <ul class="list-unstyled list-inline">
-              <li class="list-inline-item">
-                <a href="#" class="text-light"><li class="fab-fa-facebook"></li></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="text-light"><li class="fab-fa-twitter"></li></a>
-              </li>
-              <li class="list-inline-item">
-                <a href="#" class="text-light"><li class="fab-fa-instagram"></li></a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+        </nav>
+        <!-- akhir navbar -->
   
+        <!-- awal hero -->
+        <div class="jumbotron2 m-6">
+          <h1 class="display-4 " style="font-family: rounded reqular;"><strong>Berita</strong></h1>
+          <p class="lead ">Halaman Yang Akan Memberikan Pemberitahuan <br>
+            dan Pengetahuan Untuk Anda .</p>
+        </div>
+        <!-- akhir hero -->
+      </div>
+      <!-- akhir banner -->
+  
+      <!-- info panel yg row -->
+      <div class="title-3 text-center  md-4">
+        <h1>Informasi Terbaru</h1>
+      </div>
+      <!-- akhir info panel row-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
-</body>
+      <!-- Kegiatan Belajar Mengajar -->
+
+      <div class="card  md-4">
+        <div class="card-body">
+            <img src="img/bus.png" class="rounded mx-auto d-block" alt="" >
+            <h1>Kegiatan Belajar Mengajar Offline Dimulai</h1>
+            <p>Jika anak kita ditanya apa mimpinya pasti jawabnya saya ingin kembali belajar di sekolah. Saya <br> ingin bertemu dengan teman-teman sekelas saya. begitupun sebagian besar orang tua, mimpi <br> mereka adalah melihat anaknya kembali ke aktivitas sekolah secara langsung. Orang tua selama <br> ini banyak yang mengaku lelah karena anak-anaknya selama pandemi lebih banyak <br> menghabiskan waktu <a href="Read More.html">Read More....</a></p>
+        </div>
+      </div>
+  
+      <!-- nav -->
+      <nav class="nav5">
+        <a class="item5" href="#">Semua</a>
+        <a class="item5" href="#">Berita</a>
+        <a class="item5" href="#">Pengumuman</a>
+      </nav>
+
+      <div class="containers">
+          <div class="container7">
+            <div class="row7">
+              <div class="cards2">
+                <img src="img/card7.png"  alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p>Kegiatan Belajar Mengajar <br> Offline Dimulai.</p>
+              </div>
+              <div class="cards2" >
+                <img src="img/card8.png"  alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p >Penambilan Raport Semester <br> Ganjil 2021 - 2022.</p>
+              </div>
+              <div class="cards2" >
+                <img src="img/card9.png" alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p >Jam Belajar Yang Efektif <br> Pada Anak 8 - 12 Tahun.</p>
+              </div>
+              <div class="cards2" >
+                <img src="img/card10.png" alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p >Kegiatan Belajar Mengajar <br> Offline Dimulai.</p>
+              </div>
+              <div class="cards2" >
+                <img src="img/card11.png" alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p >Penambilan Raport Semester <br> Ganjil 2021 - 2022.</p>
+              </div>
+              <div class="cards2" >
+                <img src="img/card12.png" alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p >Jam Belajar Yang Efektif <br> Pada Anak 8 - 12 Tahun.</p>
+              </div>
+              <div class="cards2" >
+                <img src="img/card13.png" alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p >Kegiatan Belajar Mengajar <br> Offline Dimulai.</p>
+              </div>
+              <div class="cards2" >
+                <img src="img/card14.png" alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p >Penambilan Raport Semester <br> Ganjil 2021 - 2022.</p>
+              </div>
+              <div class="cards2" >
+                <img src="img/card15.png" alt="..." width="200">
+                  <h3 >12 Desember 2020</h3>
+                  <p >Jam Belajar Yang Efektif <br> Pada Anak 8 - 12 Tahun.</p>
+              </div>
+            </div>
+            <nav class="pagination1">
+                <h1>Menampilkan 9 Dari 21 Data</h1>
+                <ul class="pagination">
+                    <li><a href="#">«</a></li>
+                    <li><a href="#">1</a></li>
+                    <li><a href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">»</a></li>
+                  </ul>
+              </nav>
+        </div>
+    </div>
+
+    <footer class="conteiner-fluid">
+            <div class="cont3">
+              <img src="img/Vector.png" alt="">
+              <p>Jelajahi semua pengetahuan dan ilmu yang <br> berguna bersama kami, untuk kehidupan yang <br> lebih bermanfaat</p>
+              <div class="share">
+                <a href="#" class="bi-twitter"></a>
+                <a href="#" class="bi-facebook"></a>
+                <a href="#" class="bi-instagram"></a>
+              </div>
+            </div>
+            <div class="cont3">
+              <h3 class="text3">Informasi</h3>
+              <ul>
+                <li><a href="berita.html" style="text-decoration: none; color:white;">Artikel</a></li>
+                <li><a href="galery.html" style="text-decoration: none; color:white;">Galeri</a></li>
+              </ul>
+            </div>
+            <div class="cont3">
+              <h3 class="text3">Tentang</h3>
+              <ul>
+                <li><a href="tentang_kita.html" style="text-decoration: none; color:white;">Tentang Kami</a></li>
+                <li><a href="kontak.html" style="text-decoration: none; color:white;">Hubungi Kami</a></li>
+              </ul>
+            </div>
+            <div class="cont3">
+              <h3 class="text3" style="text-decoration: none; color:white;">Kantor Kami</h3>
+              <ul>
+                <li><a href="#" style="text-decoration: none; color:white;">Indonesia <br>
+                  Unamed road RT 01 RW 02 <br>
+                  Surabaya</a></li>
+              </ul>
+            </div>
+          </footer>
+            <div class="text-center p-4" style="background-color: #2E4B3F; color: white;">
+              Copyright © 2021:
+              <a class="text-white fw-bold" href="https://hub.inagata.com/">inagata</a>
+          </div>
+        </div>
+        </div>
+
+
+
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  </body>
 </html>

@@ -858,11 +858,9 @@ a{
 }
 
 .kegiatan {
-    position: absolute;
-    margin: 50px;
-    margin-bottom: 20px;
-    left: 7%;
-    top: 5%;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 20%;
 }
 
 .kegiatan h3 {
@@ -870,23 +868,27 @@ a{
     color: #404040;
 }
 
-.kegiatan p {
+.card-body2 .kegiatan p {
+    margin-left: -1%;
     color: #787878;
 }
 
 .card-body2 {
-    margin: 100px;
     top: 30px;
-    
+    margin-top: -9%;
 }
 
 .card-body2 img {
+    width: 60%;
     padding: 10px; 
     transition: transform .8s; /* Animation */
 }
 
-.card-body2 h1 {
+.card-body2 p {
     padding: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: justify;
 }
 
 .card .card-body2 img:hover {

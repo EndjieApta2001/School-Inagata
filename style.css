@@ -355,6 +355,7 @@ footer{
 
 
 /* galeri */
+
 .title-3{
     background-color: #2E4B3F;
     height: 100px;
@@ -367,40 +368,35 @@ footer{
 
 
 /* read more */
-.isi .row .judul-berita{
-    margin: 100px 0 20px 80px;
+
+.isi{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-.isi .row .judul-berita h3{
-    font-size: 32px;
+.isi .cardi .card-body{
+    margin: 50px;
 }
 
-.isi .row .judul-berita p{
-    color: #0000009a;
-}
-
-.card-bodyr {
+.isi .cardi .card-body img{
+    width: 100%;
+    align-items: center;
     margin-top: 30px;
 }
 
-.card-bodyr p{
-    margin: 20px 50px 10px 50px;
+.isi .cardi .card-body h1{
+    margin-top: 30px;
+}
+
+.isi .cardi .card-body p{
+    margin-top: 20px;
     text-align: justify;
 }
 
-.card-bodyr img {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.card-bodyr h1 {
-    padding: 10px;
-}
-
 .bagi {
-    margin: 50px 0 0 50px;
+    margin: 50px 0;
 }
 
 .bagi h1 {
@@ -429,7 +425,9 @@ footer{
 }
 
 
+
 /* galeri */
+
 .title-3{
     background-color: #2E4B3F;
     height: 100px;

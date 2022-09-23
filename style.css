@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700&display=swap');
+
 *{
+    font-family: 'Poppins';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -10,147 +13,66 @@ body {
 }
 
 /* Beranda */
-
-.banner{
-    width: 100%;
-    height: 100vh;
-    background-image: url(img/bgputih.jpg);
-    background-repeat: no-repeat;
-    background-position: top right;
+.section-padding{
+    padding: 50px 0;
 }
 
-.navbar-brand {
-    font-weight: 700;
-    font-size: 10px;
-    color: #1FA7FF;
+.btn:hover{
+    letter-spacing: 2px;
 }
 
-
-.nav-link {
+.navbar-nav a{
     font-size: 16px;
-    font-family: sans-serif;
-    color: black;
     text-transform: uppercase;
-    margin-right: 20px;
+    font-weight: 500;
 }
 
-.nav-link:hover {
-    border-bottom: 3px solid #444444;
-    padding-bottom: 5px;
-    margin-bottom: -8px;
-    transition: 0.2s;
-}
-
-.nav-item:hover {
+.navbar-light .navbar-brand{
+    color: #000;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: 700;
     letter-spacing: 2px;
 }
 
-.collapse .btn {
-    background: white;
-    border-radius: 20px;
-    color: #29A973;
-    font-weight: bold;
-    font-size: 16px;
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover{
+    color: #000;
 }
 
-.collapse .btn:hover {
-    color: #1FA7FF;
+.navbar-nav .nav-item{
+    margin: 0 20px;
 }
 
-.jumbotron {
-    margin: 10px 10px 30px 20px;
-    position: absolute;
-    padding: 30px;
-    margin: 0;
-    margin-top: 30px;
+.navbar-nav .nav-item a:hover{
+    border-bottom: 3px solid #29a973;
+    color: #29a973;
+    transition: all 0.2s ease;
 }
 
-.jumbotron h1 {
-    margin: 10px 10px 30px 20px;
-    font-family: rounded reqular;
-    font-size: 50px;
-    font-weight: bold;
+.banner-text h1{
+    margin-top: 50px;
+   font-family: rounded bold;
+   font-size: 56px;
 }
 
-.jumbotron p {
-    margin: 10px 10px 30px 20px;
+.banner-text{
+    padding: 0 200px 0 0;
 }
 
-.jumbotron a {
-    margin: 10px 10px 30px 20px;
-}
-
-.jumbotron a:hover{
-    letter-spacing: 2px;
-    transition: 0.2s;
-}
-
-.jumbotron2 {
-    margin: 10px 10px 30px 20px;
-    padding: 60px;
-}
-
-
-.container-item {
-    margin: 10px 10px 30px 20px;
-    display: grid;
-    background-color: #2E4B3F;
-    color: white; 
-}
-
-#logo-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 0px;
-    margin: 0 1.5%;
-}
-
-#profile-logo {
-    object-fit: cover;
-    margin: 20px;
-}
-
-.title {
-    margin: 10px 10px 30px 20px;
-    font-size: 12px;
-    font-weight: 700px;
-}
-
-#halo{
-    background-color: #2E4B3F;
-}
-
-.contrainer10{
-    background-color: #2E4B3F;
-    padding: 30px;
-    color: white;
-}
-
-.flex{
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    left: 40%;
-}
-
-.contrainer10 h1 {
-    text-align: left;
-}
-
-
-.kotak p{
-    margin-left: 75px;
-    margin-bottom: 70px;
+.banner-text h2{
+    margin-top: 100px;
+   font-family: rounded bold;
+   font-size: 56px;
 }
 
 #bg{
     background-color: #2E4B3F;
+    height: 200px;
 }
 
-.row div {
-    /* background-color: #2E4B3F; */
-    padding: 30px;
+.keunggulan .row div{
+    padding: 80px;
     display: flex;
     align-items: center;
     color: white;
@@ -159,248 +81,101 @@ body {
 
 }
 
-.container {
-    padding-top: 20px;
-}
-
-#hmm {
-    color: black;
-    /* font-family: rounded reqular; */
-    font-weight: bold;
-}
-
-
-.row img {
+.keunggulan .row img{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-left: 20px;
 }
 
-.row p {
-    font-size: 15px;
+.keunggulan .row p{
+    font-size: 16px;
     text-transform: uppercase;
-    text-align: center;
     padding-left: 20px;
     justify-content: space-between;
     color: white;
-    text-align: justify;
 }
 
-.content {
-    max-width: 1200px;
-    margin: 0 auto;
-    /* margin-bottom: 200px; */
-    padding: 0px 32px;
+.sekolah-text{
+    margin: 0 30px 0 100px;
 }
 
-.content a:hover{
-    letter-spacing: 2px;
+.sekolah-text h2{
+    font-family: rounded bold;
+    font-size: 56px;
+}
+
+.partner{
+    margin-top: 30px;
+}
+
+.partner .container .row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partner .container .row h2{
+    font-size: 56px;
+    font-family: rounded bold;
+}
+
+.partner .container .row p{
+    margin-left: 50px;
+    text-transform: uppercase;
+    color: #0000009a;
+}
+
+.partner .container .row .image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin: 40px 0;
+}
+
+.kegiatan .container .row a{
+    color: #29a973;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.artikel{
+    margin-top: 30px;
+}
+
+.artikel .row{
+    display: flex;
+    margin: 100px;
+}
+
+.card-header .nav-item a{
+    color: #000;
+}
+
+.card-header .nav-item a:hover{
+    color: #29a973;
+    border-bottom: 3px solid #29a973;
     transition: 0.2s;
 }
 
-#profile-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 1.5%;
+.card-box{
+    display: inline-block;
+    margin: 30px 30px;
 }
 
-#profile-container  #profile-picture {
-    height: 300px;
-    object-fit: cover;
-    margin: 50px;
-}
-
-#profile-container .bio h1{
-    font-size: 2em;
-    font-weight: 200;
-}
-
-#profile-container .bio p{
-    font-weight: 200;
-    font-size: 16px;
-}
-
-/* .kontak h1{
-    margin: 20px 0px;
-    font-size: 30px;
-    font-weight: bold;
-} */
-
-.subtitle {
-    font-size: 1.25em;
-    line-height: 1.4;
-    margin: 24px 0;
-}
-
-.containers {
-    text-align: left;
-}
-
-.nav4 {
-    padding: 20px;
-    display: flex;
-    flex-direction: row;
-    margin-right: 40px;
-}
-
-.nav4 h1 {
-    font-size: 30px;
-}
-
-.nav5 a{
-    padding: 10px;
-    color: #8F8F8F;
-}
-
-.text-kanan a {
-    margin-left: 400%;
-}
-
-.item4 {
-    font-size: 16px;
-    font-family: sans-serif;
-    color: #2ECB89;
-    text-transform: uppercase;
-    text-decoration: none;
-    margin-right: 30px;
-    padding: 15px;
-    margin-left:500px;
-}
-
-.containert {
-    display: flex;
-    padding: 100px;
-    margin: 20px;
-}
-
-.title-col {
-    display: flex;
-    padding: 100px;
-    flex-wrap: wrap;
-    align-items: flex-end;
-}
-
-.title-col h1{
-    margin: 10px 10px 30px 20px;
-    font-size: 2.2em;
-    font-weight: 700;
-    margin-right: 20px;
-    /* align-items: flex-start; */
-    justify-content: center;
-    align-items: right;
-
-}
-
-.title-col p {
-    margin: 10px 10px 30px 20px;
-    font-size: 20px;
-    margin-right: 50px;
-    text-align: left;
-    
-    
-}
-
-#partner{
-    position: absolute;
-    left: 10%;
-    /* font-size: 20px; */
-    padding-right: 20px;
-}
-
-#naskah{
-    position: absolute;
-    left: 30%;
-}
-
-.container2 {
-    margin: auto;
-    padding: 60px;
-    align-items: center;
-}
-
-.container2 ul li {
-    padding: 10px;
-}
-
-.container2 img {
-    width: 90px;
-    align-items: center;
-}
-
-.logo li {
-    height: 150px;
-    overflow: hidden;
-    float: left;
-    margin-right: 15px;
-    margin-left: 30px;
-    
-}
-
-.container2 .logo img:hover{
+.card-box img:hover{
     transform: scale(1.1);
 }
 
-
-.container3 {
-    margin: auto;
-    margin-left: 100px;
-    align-items: center;
+.card-box .card-body h5{
+    margin: 15px 0;
+    cursor: pointer;
 }
 
-.deskripsi2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-
-.row3 {
-    padding: 30px;
-    display: flex;
-    align-items: flex-end;
-}
-
-.kontak {
-    background-color: #29A973;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-}
-
-.title-1 {
-    margin: 24px 0px;
-    font-size: 50px;
-    font-weight: 700;
-    font-family: rounded reqular;
-}
-
-.subtitle {
-    font-size: 1.25em;
-    line-height: 1.4;
-}
-
-.container .card {
-    background-color: #29A973;
-    width: 500px;
-    display: flex;
-    align-items: center;
-    padding: 20px;
-    /* opacity: 0; */
-    pointer-events: none;
-    justify-content: space-between;
-    border-radius: 10px;
-    object-fit: cover;
-}
-
-.card .details {
-    margin-left: 80px;
-}
-
-.details span {
-    font-weight: 600;
-    font-size: 18px;
+.card-box .card-body h5:hover{
+    color: #29a973;
+    cursor: pointer;
 }
 
 .cardd {
@@ -416,12 +191,15 @@ body {
 }
 
 .cardd h2 {
+    font-family: rounded bold;
+    font-size: 48px;
     color: white;
 }
 
-.cardd p {
+.cardd .col p {
+    font-weight: 400;
     color: white;
-    font-size: 1.5em;
+    padding: 20px 150px 0 0;
 }
 
 .btn a{
@@ -432,73 +210,20 @@ body {
     flex-wrap: wrap;
 }
 
-.card9 h1 {
-    margin-right: 20px;
+footer{
+    margin-top: 50px;
 }
 
-
-.card-body btn {
-    background-color: #48D198;
+.footer1 .container .row .col-md-2 p a:hover{
+    color: #29a973;
 }
 
-
-.cards1 {
-    width: auto;
-    height: auto;
-    overflow: hidden;
-    float: left;
-    margin-right: 25px;
-    margin-left: 75px;
+.footer1 .container .row .share{
+    margin-bottom: 30px;
 }
 
-.img1 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-  }
-
-.cards1 h3 {
-    font-size: 20px;
-    padding: 10px 0 0 0;
-}
-
-.cards1 p {
-    font-size: 16px;
-}
-
-.row6 .cards1 img:hover{
-    transform: scale(1.1);
-}
-
-.row6 .cards1 h3:hover{
-    color: #29A973;
-    cursor: pointer;
-} 
-
-.container5 {
-    padding: 50px;
-}
-
-footer {
-    display: flex;
-    background-color: #2E4B3F !important;
-    color: white;
-    padding: 30px;
-    padding-bottom: 0px;
-    margin: auto; 
-}
-
-.footer {
-    display: flex;
-    background-color: #2E4B3F !important;
-    padding: 30px;
-    padding-bottom: 0px;
-    margin: auto; 
-}
-
-.conteiner-fluid .cont3 .share a{
-    	display: inline-block;
+.footer1 .container .row .share a{
+    display: inline-block;
 	height: 40px;
 	width: 40px;
 	background-color: rgba(255,255,255,0.2);
@@ -510,38 +235,180 @@ footer {
 	transition: all 0.5s ease;
 }
 
-.conteiner-fluid .cont3 .share a:hover{
+.footer1 .container .row .share a:hover{
     color: white;
     background-color: #29A973;
 }
 
-.footer p {
-    color: white;
+
+
+
+/* media queries */
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .section-padding{
+        width: 100%;
+    }
+
+    .banner-img{
+        width: 60%;
+        padding-top: 10px;
+    }
+
+    .keunggulan .row div{
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        color: white;
+        display: flex;
+        flex-direction: row;
+    
+    }
+
 }
 
-.cont3{
-    margin-left: 6%;
-}
+@media only screen and (max-width: 767px){
+    .section-padding{
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .navbar-brand{
+        font-size: 20px;
+    }
 
-.text3{
-    padding-left: 30px;
-    color: white;
-}
+    .navbar-brand img{
+        height: 18px;
+    }
 
-ul{
-    list-style-type:none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
+    .navbar-nav{
+        text-align: center;
+    }
 
-li {
-    color: white;
-    text-transform: none;
-}
+    .banner-text{
+        padding: 40px 50px 0 0;
+    }
+    
 
-a{
-    text-decoration: none;
+    .banner-text h2{
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .banner-text p{
+        font-size: 12px;
+    }
+    
+    .banner-text a{
+        font-size: 12px;
+    }
+
+    .banner-img{
+        width: 70%;
+        padding-top: 10px;
+    }
+
+    .keunggulan{
+        padding-top: 50px;
+    }
+
+    #bg{
+        height: 400px;
+        width: 100%;
+    }
+
+    .keunggulan .row img{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: 20px;
+        width: 40px;
+    }
+    
+    .keunggulan .row p{
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: center;
+        justify-content: center;
+        justify-content: space-between;
+        color: white;
+    }
+    
+    .sekolah-img{
+        width: 70%;
+    }
+
+    .sekolah-text{
+        margin: 10px 40px 0 0;
+    }
+    .sekolah-text h2{
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .sekolah-text p{
+        font-size: 12px;
+        margin: 0;
+        padding-bottom: 10px;
+    }
+
+    .sekolah-text a{
+        font-size: 12px;
+    }
+
+    .partner-img .logo-partner li img{
+        width: 30%;
+        height: min-content;
+        margin: 0;
+        padding: 0;
+    }
+
+    .partner .container .row h2{
+        font-size: 20px;
+    }
+
+    .partner .container .row p{
+        font-size: 12px;
+    }
+
+    .partner .image{
+        width: 50%;
+    }
+
+    .cardd .col h2{
+        font-size: 20px;
+    }
+
+    .cardd .col p{
+        font-size: 12px;
+    }
+
+    .keunggulan .row div{
+        padding: 30px;
+        display: flex;
+        align-items: center;
+        color: white;
+        display: flex;
+        flex-direction: row;
+    
+    }
+
+    .artikel{
+        margin-top: 0;
+    }
+
+   .row9{
+        display: inline-block;
+    }
+
+    .belajar .card .card-body h1{
+        font-size: 20px;
+    }
+
+    .belajar .card .card-body p{
+        font-size: 12px;
+    }
 }
 
 

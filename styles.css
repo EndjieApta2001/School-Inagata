@@ -549,3 +549,32 @@ footer{
     padding-top: 20px;
 }
 
+/* kontak */
+
+.kontak{
+    display: flex;
+}
+
+.kontak .cardk .card-body{
+    padding: 50px 0;
+}
+
+.kontak .cardk .card-body h2{
+    display: flex;
+    font-size: 24px;
+    color: #0000009a;
+    text-align: center;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontak .cardk .card-body h3{
+    display: flex;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+

@@ -1,4 +1,3 @@
-
 *{
     margin: 0;
     padding: 0;
@@ -44,6 +43,18 @@ body {
 
 .nav-item:hover {
     letter-spacing: 2px;
+}
+
+.collapse .btn {
+    background: white;
+    border-radius: 20px;
+    color: #29A973;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.collapse .btn:hover {
+    color: #1FA7FF;
 }
 
 .jumbotron {
@@ -195,10 +206,20 @@ body {
     margin: 1.5%;
 }
 
-#profile-picture {
-    height: 500px;
+#profile-container  #profile-picture {
+    height: 300px;
     object-fit: cover;
     margin: 50px;
+}
+
+#profile-container .bio h1{
+    font-size: 2em;
+    font-weight: 200;
+}
+
+#profile-container .bio p{
+    font-weight: 200;
+    font-size: 16px;
 }
 
 /* .kontak h1{
@@ -712,16 +733,16 @@ a{
 }
 
 .card-body h1 {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
-    margin-right: 130px;
     padding: 10px;
     color: #404040;
 }
 
 .card-body p {
-    text-align: justify;
-    margin-left: 230px;
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: left;
     color: #787878;
 }
 

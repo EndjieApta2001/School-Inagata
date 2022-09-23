@@ -252,6 +252,225 @@ footer{
 
 
 
+/* tentang */
+
+#logo-flex {
+    background-color: #2E4B3F;
+    height: 300px;
+}
+
+.row9{
+    display: flex;
+    padding: 30px;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.sekolah {
+    margin-left: 50px;
+    padding: 20px;
+    padding-top: 20%;
+}
+
+.row9 .sekolah h3{
+    color: white;
+    font-size: 40px;
+    font-family: rounded bold;
+}
+
+.col img {
+    width: 50px;
+    position: absolute;
+    right: 40%;
+}
+
+.col h3 {
+    font-size: 20px;
+    margin-right: 20px;
+    text-align: left;
+}
+
+.video{
+    display: flex;
+    margin: 100px 0;
+}
+
+.card-box1{
+    display: inline-block;
+    margin: 20px;
+}
+
+.card-box1 img:hover{
+    transform: scale(1.1);
+}
+
+.card-box1 .card-body h5{
+    margin: 20px 0 10px 0;
+    cursor: pointer;
+}
+
+.card-box1 .card-body h5:hover{
+    color: #29a973;
+    cursor: pointer;
+}
+
+
+/* berita */
+
+.belajar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.belajar .card .card-body{
+    margin: 50px;
+}
+
+.belajar .card .card-body img{
+    width: 100%;
+    align-items: center;
+}
+
+.belajar .card .card-body h1{
+    margin-top: 30px;
+}
+
+.artikelb{
+    margin: 0;
+}
+
+.artikelb .row{
+    display: flex;
+}
+
+.artikelb .row .card-header{
+    margin-left: 200px;
+}
+
+.artikelb .card-box .card-body p{
+    margin-top: 20px;
+    color: #0000009a;
+}
+
+
+/* galeri */
+.title-3{
+    background-color: #2E4B3F;
+    height: 100px;
+}
+
+.title-3 h1{
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+
+/* read more */
+.isi .row .judul-berita{
+    margin: 100px 0 20px 80px;
+}
+
+.isi .row .judul-berita h3{
+    font-size: 32px;
+}
+
+.isi .row .judul-berita p{
+    color: #0000009a;
+}
+
+.card-bodyr {
+    margin-top: 30px;
+}
+
+.card-bodyr p{
+    margin: 20px 50px 10px 50px;
+    text-align: justify;
+}
+
+.card-bodyr img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.card-bodyr h1 {
+    padding: 10px;
+}
+
+.bagi {
+    margin: 50px 0 0 50px;
+}
+
+.bagi h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #0000009a;
+    margin-left: 0;
+}
+
+.bagi .medsos a{
+    display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: #C2C2C2;
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: white;
+	transition: all 0.5s ease;
+}
+
+.bagi .medsos a:hover{
+    color: white;
+    background-color: #29A973;
+}
+
+
+/* galeri */
+.title-3{
+    background-color: #2E4B3F;
+    height: 100px;
+}
+
+.title-3 h1{
+    color: #ffffff;
+    padding-top: 20px;
+}
+
+
+
+/* kontak */
+
+.kontak{
+    display: flex;
+}
+
+.kontak .cardk .card-body{
+    padding: 50px 0;
+}
+
+.kontak .cardk .card-body h2{
+    display: flex;
+    font-size: 24px;
+    color: #0000009a;
+    text-align: center;
+    padding: 20px 200px;
+    justify-content: center;
+    align-items: center;
+}
+
+.kontak .cardk .card-body h3{
+    display: flex;
+    font-size: 24px;
+    color: #000000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /* media queries */
@@ -444,151 +663,5 @@ footer{
     .kontak .cardk .card-body h3{
         font-size: 12px;
     }
-}
-
-
-/* tentang */
-
-
-#logo-flex {
-    background-color: #2E4B3F;
-    height: 300px;
-}
-
-.row9{
-    display: flex;
-    padding: 30px;
-    flex-wrap: wrap;
-    align-items: flex-end;
-}
-
-.sekolah {
-    margin-left: 50px;
-    padding: 20px;
-    padding-top: 20%;
-}
-
-.row9 .sekolah h3{
-    color: white;
-    font-size: 40px;
-    font-family: rounded bold;
-}
-
-.col img {
-    width: 50px;
-    position: absolute;
-    right: 40%;
-}
-
-.col h3 {
-    font-size: 20px;
-    margin-right: 20px;
-    text-align: left;
-}
-
-.video{
-    display: flex;
-    margin: 100px 0;
-}
-
-.card-box1{
-    display: inline-block;
-    margin: 20px;
-}
-
-.card-box1 img:hover{
-    transform: scale(1.1);
-}
-
-.card-box1 .card-body h5{
-    margin: 20px 0 10px 0;
-    cursor: pointer;
-}
-
-.card-box1 .card-body h5:hover{
-    color: #29a973;
-    cursor: pointer;
-}
-
-
-
-
-
-/* berita */
-
-.belajar{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.belajar .card .card-body{
-    margin: 50px;
-}
-
-.belajar .card .card-body img{
-    width: 100%;
-    align-items: center;
-}
-
-.belajar .card .card-body h1{
-    margin-top: 30px;
-}
-
-.artikelb{
-    margin: 0;
-}
-
-.artikelb .row{
-    display: flex;
-}
-
-.artikelb .row .card-header{
-    margin-left: 200px;
-}
-
-.artikelb .card-box .card-body p{
-    margin-top: 20px;
-    color: #0000009a;
-}
-
-/* galeri */
-.title-3{
-    background-color: #2E4B3F;
-    height: 100px;
-}
-
-.title-3 h1{
-    color: #ffffff;
-    padding-top: 20px;
-}
-
-/* kontak */
-
-.kontak{
-    display: flex;
-}
-
-.kontak .cardk .card-body{
-    padding: 50px 0;
-}
-
-.kontak .cardk .card-body h2{
-    display: flex;
-    font-size: 24px;
-    color: #0000009a;
-    text-align: center;
-    padding: 20px 200px;
-    justify-content: center;
-    align-items: center;
-}
-
-.kontak .cardk .card-body h3{
-    display: flex;
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 

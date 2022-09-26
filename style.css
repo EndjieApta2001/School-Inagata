@@ -142,8 +142,8 @@ body{
     color: #0000009a;
 }
 
-.partner .container .row .image{
-    display: flex;
+.partner .container .row .image ul li{
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -613,8 +613,9 @@ footer{
         font-size: 12px;
     }
 
-    .partner .image{
-        width: 50%;
+    .partner .image ul li{
+        display: inline-block;
+        width: 30%;
     }
 
     .cardd .col h2{

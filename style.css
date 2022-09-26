@@ -218,6 +218,10 @@ body{
     padding: 20px 150px 0 0;
 }
 
+.cardd .col .colb a{
+    display: none;
+}
+
 .btn a{
     border-radius: 10px;
     border: none;
@@ -624,6 +628,19 @@ footer{
 
     .cardd .col p{
         font-size: 12px;
+    }
+	
+    .cardd .col a{
+        display: none;
+    }
+
+    .cardd .col .colb a{
+        display: block;
+    }
+
+    .cardd .col .btn{
+        font-size: 12px;
+        margin-bottom: 0;
     }
 
     .keunggulan .row div{

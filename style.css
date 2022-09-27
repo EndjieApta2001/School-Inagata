@@ -301,26 +301,37 @@ footer{
 }
 
 .bgr{
-        font-size: 20px;
-        display: flex;
-        flex-direction: column;
-        padding-top: 0;
-        padding: 50px;
-    }
-    .bgr .judul2 h1{
-        font-size: 24px;
-        padding-bottom: 50px;
-        text-align: center;
-    }
-    .keterangan .circle-ikon img{
-        width: 100%;
-    }
-    .keterangan .text-tk h2{
-        font-size: 12px;
-    }
-    .keterangan .text-tk p{
-        font-size: 12px;
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #2E4B3F;
+    padding-top: 50px;
+}
+.judul2{
+    margin-right: 100px;
+}
+.judul2 h1{
+    font-size: 48px;
+    font-family: rounded bold;
+}
+.kanan{
+    display: flex;
+}
+.circle-ikon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.text-tk{
+    margin-left: 40px;
+}
+.text-tk h2{
+    font-size: 24px;
+}
 
 @media only screen (max-width: 767px)"
 

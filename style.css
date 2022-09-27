@@ -306,7 +306,7 @@ footer{
     align-items: center;
     width: 100%;
     background-color: #2E4B3F;
-    padding-top: 50px;
+    padding-top: 50px
 }
 .judul2{
     margin-right: 100px;
@@ -319,7 +319,7 @@ footer{
     display: flex;
 }
 .circle-ikon{
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: center;
     width: 30px;
@@ -333,7 +333,6 @@ footer{
     font-size: 24px;
 }
 
-@media only screen (max-width: 767px)"
 
 .card-box1{
     display: inline-block;
@@ -727,5 +726,6 @@ footer{
     .kontak .cardk .card-body h3{
         font-size: 12px;
     }
+	@media only screen (max-width: 767px)"
 }
 

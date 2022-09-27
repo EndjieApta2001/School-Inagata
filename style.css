@@ -727,5 +727,26 @@ footer{
         font-size: 12px;
     }
 	@media only screen (max-width: 767px)"
+		.bgr{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding: 50px;
+    }
+    .bgr .judul2 h1{
+        font-size: 24px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .keterangan .circle-ikon img{
+        width: 100%;
+    }
+    .keterangan .text-tk h2{
+        font-size: 12px;
+    }
+    .keterangan .text-tk p{
+        font-size: 12px;
+    }
 }
 

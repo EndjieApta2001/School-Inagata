@@ -142,6 +142,11 @@ body{
     color: #0000009a;
 }
 
+.partner .container .row .image {
+    margin-left: 79px;
+    padding: 50px;
+}
+
 .partner .container .row .image ul li{
     display: block;
     justify-content: center;

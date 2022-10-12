@@ -142,13 +142,12 @@ body{
     color: #0000009a;
 }
 
-.partner .container .row .image{
-    display: flex;
+.partner .container .row .image ul li{
+    display: block;
     justify-content: center;
     align-items: center;
     height: 100%;
     margin: 60px 0;
-    text-transform: uppercase;
 }
 
 .kegiatan .container .row a{
@@ -219,6 +218,10 @@ body{
     padding: 20px 150px 0 0;
 }
 
+.cardd .col .colb a{
+    display: none;
+}
+
 .btn a{
     border-radius: 10px;
     border: none;
@@ -256,11 +259,6 @@ footer{
     color: white;
     background-color: #29A973;
 }
-
-/* .footer1 .container .row .hover:hover{
-    color: #29A973;
-} */
-
 
 
 
@@ -302,10 +300,39 @@ footer{
     text-align: left;
 }
 
-.video{
+.bgr{
     display: flex;
-    margin: 100px 0;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #2E4B3F;
+    padding-top: 50px
 }
+.judul2{
+    margin-right: 100px;
+}
+.judul2 h1{
+    font-size: 48px;
+    font-family: rounded bold;
+}
+.kanan{
+    display: flex;
+}
+.circle-ikon{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.text-tk{
+    margin-left: 40px;
+}
+.text-tk h2{
+    font-size: 24px;
+}
+
 
 .card-box1{
     display: inline-block;
@@ -333,26 +360,6 @@ footer{
     cursor: pointer;
 }
 
-.bg {
-    width: 100%;
-    background-color: #2E4B3F;
-    padding: 100px 50px;
-}
-
-.main {
-    margin-right: 100px;
-}
-
-.circle-icon {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #29A973;
-    width: 50px;
-    height: 50px;
-    border-radius: 100%;
-    margin-right: 10px;
-}
 
 /* berita */
 
@@ -611,8 +618,6 @@ footer{
         justify-content: space-between;
         color: white;
     }
-
-
     
     .sekolah-img{
         width: 70%;
@@ -651,8 +656,9 @@ footer{
         font-size: 12px;
     }
 
-    .partner .image{
-        width: 50%;
+    .partner .image ul li{
+        display: inline-block;
+        width: 30%;
     }
 
     .cardd .col h2{
@@ -661,6 +667,19 @@ footer{
 
     .cardd .col p{
         font-size: 12px;
+    }
+	
+    .cardd .col a{
+        display: none;
+    }
+
+    .cardd .col .colb a{
+        display: block;
+    }
+
+    .cardd .col .btn{
+        font-size: 12px;
+        margin-bottom: 0;
     }
 
     .keunggulan .row div{
@@ -705,6 +724,28 @@ footer{
     }
     
     .kontak .cardk .card-body h3{
+        font-size: 12px;
+    }
+	
+		.bgr{
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        padding-top: 0;
+        padding: 50px;
+    }
+    .bgr .judul2 h1{
+        font-size: 24px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    .keterangan .circle-ikon img{
+        width: 100%;
+    }
+    .keterangan .text-tk h2{
+        font-size: 12px;
+    }
+    .keterangan .text-tk p{
         font-size: 12px;
     }
 }

@@ -294,9 +294,12 @@ footer{
 }
 
 .col img {
-    width: 50px;
+	width: 55px;
     position: absolute;
-    right: 45%;
+    right: 43%;
+/*     width: 50px;
+    position: absolute;
+    right: 45%; */
 }
 
 .col h3 {

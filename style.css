@@ -547,7 +547,34 @@ footer{
         color: white;
         display: flex;
         flex-direction: row;
+    }
+
+    .banner-text{
+        padding: 40px 50px 0 0;
+    }
     
+    .banner{
+        background-image: none;
+    }
+
+    .banner-text h2{
+        margin-top: 50px;
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .banner-text p{
+        font-size: 12px;
+    }
+    
+    .banner-text a{
+        font-size: 12px;
+    }
+
+    .banner-img{
+        display: block;
+        width: 70%;
+        padding-top: 10px;
     }
 
 }

@@ -142,16 +142,13 @@ body{
     color: #0000009a;
 }
 
-.partner .container .row .image {
-    padding: 40px 0;
-}
-
-.partner .container .row .image ul li{
-    display: block;
-    justify-content: center;
+.partner .row .image {
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    height: 100%;
-    margin: 60px 0;
+    height: 80%;
+    margin-bottom: 50px;
+    margin: 79px;
 }
 
 .kegiatan .container .row a{

@@ -157,6 +157,12 @@ body{
     text-decoration: none;
 }
 
+.kegiatan .container .row h2{
+    font-family: rounded bold;
+    font-weight: 700;
+    font-size: 48px;
+}
+
 .artikel{
     margin-top: 30px;
 }
@@ -193,6 +199,10 @@ body{
 .card-box .card-body h5:hover{
     color: #29a973;
     cursor: pointer;
+}
+
+.card-box .card-body p{
+    color: #787878;
 }
 
 .cardd {
@@ -268,6 +278,16 @@ footer{
 #logo-flex {
     background-color: #2E4B3F;
     height: 300px;
+}
+
+.guru .container .row h2{
+    font-family: rounded bold;
+    font-size: 56px;
+    font-weight: 600;
+}
+
+.guru .container .card-box1 .card-body p{
+    color: #787878;
 }
 
 .row9{
@@ -399,26 +419,14 @@ footer{
     display: flex;
 }
 
-.artikelb .row .card-header{
-    margin-left: 200px;
+.artikelb .card-box .card-body h5{
+    font-size: 24px;
 }
 
 .artikelb .card-box .card-body p{
     margin-top: 20px;
     color: #0000009a;
-}
-
-
-/* galeri */
-
-.title-3{
-    background-color: #2E4B3F;
-    height: 100px;
-}
-
-.title-3 h1{
-    color: #ffffff;
-    padding-top: 20px;
+    font-size: 16px;
 }
 
 
@@ -439,6 +447,17 @@ footer{
     width: 100%;
     align-items: center;
     margin-top: 30px;
+}
+
+.isi .cardi .card-body .judul-berita h3{
+    font-family: rounded bold;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.isi .cardi .card-body .judul-berita p{
+    color: #787878;
+    font-size: 20px;
 }
 
 .isi .cardi .card-body h1{
@@ -479,6 +498,12 @@ footer{
     background-color: #29A973;
 }
 
+.lainnya .container .row h2{
+    font-family: rounded bold;
+    font-size: 40px;
+    font-weight: 700;
+}
+
 /* galeri */
 
 .title-3{
@@ -489,6 +514,9 @@ footer{
 .title-3 h1{
     color: #ffffff;
     padding-top: 20px;
+    font-family: rounded bold;
+    font-size: 48px;
+    font-weight: 600;
 }
 
 
@@ -499,27 +527,23 @@ footer{
     display: flex;
 }
 
-.kontak .cardk .card-body{
-    padding: 50px 0;
+.container .kontak .cardk .card-body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
 }
 
 .kontak .cardk .card-body h2{
-    display: flex;
     font-size: 24px;
     color: #0000009a;
-    text-align: center;
-    padding: 20px 200px;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 50px;
 }
 
 .kontak .cardk .card-body h3{
-    display: flex;
     font-size: 24px;
     color: #000000;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 
@@ -551,12 +575,12 @@ footer{
 
     .banner-text h2{
         margin-top: 50px;
-        font-size: 20px;
+        font-size: 48px;
         font-weight: bold;
     }
 
     .banner-text p{
-        font-size: 12px;
+        font-size: 20px;
     }
     
     .banner-text a{

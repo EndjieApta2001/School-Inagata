@@ -421,6 +421,10 @@ footer{
     margin-top: 30px;
 }
 
+.belajar .card .card-body a {
+    color: #0000009a;
+}
+
 .belajar .card .card-body a:hover {
     color: #1FA7FF;
 }

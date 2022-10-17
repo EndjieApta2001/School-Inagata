@@ -146,6 +146,9 @@ body{
 }
 
 .partner .container .row h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 56px;
     font-family: rounded bold;
 }

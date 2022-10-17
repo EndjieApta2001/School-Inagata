@@ -207,13 +207,24 @@ body{
 }
 
 .card-box .card-body h5{
-    margin: 15px 0;
+    margin-top: 10px;
     cursor: pointer;
 }
 
 .card-box .card-body h5:hover{
     color: #29a973;
     cursor: pointer;
+}
+
+.lainnya .container .row h2{
+    font-family: rounded bold;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.lainnya .container .card-box .card-body p{
+    color: #787878;
+    margin-top: 30px;
 }
 
 .card-box .card-body p{
@@ -347,16 +358,20 @@ footer{
     background-color: #2E4B3F;
     padding-top: 50px
 }
+
 .judul2{
     margin-right: 100px;
 }
+
 .judul2 h1{
     font-size: 48px;
     font-family: rounded bold;
 }
+
 .kanan{
     display: flex;
 }
+
 .circle-ikon{
      display: flex;
     align-items: center;
@@ -365,9 +380,11 @@ footer{
     height: 30px;
     margin-left: 10px;
 }
+
 .text-tk{
     margin-left: 40px;
 }
+
 .text-tk h2{
     font-size: 24px;
 }
@@ -514,12 +531,6 @@ footer{
 .bagi .medsos a:hover{
     color: white;
     background-color: #29A973;
-}
-
-.lainnya .container .row h2{
-    font-family: rounded bold;
-    font-size: 40px;
-    font-weight: 700;
 }
 
 /* galeri */

@@ -72,6 +72,10 @@ body{
    font-size: 56px;
 }
 
+.banner-text p{
+    color: #787878;
+}
+
 .banner-img{
     display: none;
 }
@@ -121,6 +125,16 @@ body{
     font-size: 56px;
 }
 
+.sekolah .container .sekolah-text p{
+    color: #787878;
+}
+
+.video .row .content h3{
+    font-family: rounded bold;
+    font-size: 56px;
+    font-weight: 600;
+}
+
 .partner{
     margin-top: 30px;
 }
@@ -137,8 +151,6 @@ body{
 }
 
 .partner .container .row p{
-    margin-left: 50px;
-    text-transform: uppercase;
     color: #0000009a;
 }
 
@@ -173,7 +185,7 @@ body{
 }
 
 .card-header .nav-item a{
-    color: #000;
+    color: #8f8f8f;
 }
 
 .card-header .nav-item a:hover{

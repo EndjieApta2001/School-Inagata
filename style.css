@@ -85,7 +85,7 @@ body{
     margin-right: 20px;
 }
 
-#bg{
+#keunggulan{
     background-color: #2E4B3F;
     height: 200px;
 }
@@ -235,8 +235,12 @@ body{
     margin: auto;
     border-radius: 10px;
     padding: 30px;
-    align-items: flex-start;
-    flex-wrap: wrap;
+}
+
+.container .cardd{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .cardd .col a:hover{
@@ -681,7 +685,7 @@ footer{
         padding-top: 50px;
     }
 
-    #bg{
+    #keunggulan{
         height: 400px;
         width: 100%;
     }
@@ -744,6 +748,16 @@ footer{
 
     .partner .container .row .image img{
         width: 50%;
+    }
+	
+    .container .cardd{
+        flex-direction: column;
+    }
+
+    .btn-gabung{
+        width: 100%;
+        display: flex;
+        justify-content: flex-end;
     }
 
     .cardd .col h2{
@@ -832,5 +846,15 @@ footer{
     }
     .keterangan .text-tk p{
         font-size: 12px;
+    }
+}
+
+@media only screen and (min-width: 1590px) {
+    .banner{
+        background-image: url();
+    }
+
+    .banner-img{
+        display: block;
     }
 }
